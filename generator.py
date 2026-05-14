@@ -9,7 +9,7 @@ Run tests: uv run pytest tests/test_generator.py
 import re
 
 from dotenv import load_dotenv
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 
 load_dotenv()
